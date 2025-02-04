@@ -5,3 +5,15 @@
 *{
     font-family: 'machina';
 }
+html,body,#root {
+    height: 100%;
+    width: 100%;
+}
+body{
+    cursor: url(./assets/cursor/cursor.png),auto;
+   
+}
+button:hover{
+    cursor: url(./assets/cursor/pointer.png), pointer;
+    
+}
