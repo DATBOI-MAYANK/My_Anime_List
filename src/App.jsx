@@ -3,14 +3,15 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./style.css";
-import Hero from "./assets/Hero/Hero";
-import Footer from "./assets/Footer/Footer";
+import Hero from "./assets/Hero/Hero.jsx";
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
 
-  const HeroRef = useRef(null);
+  
 
   useGSAP(() => {
     let tl = gsap.timeline();
@@ -80,7 +81,7 @@ function App() {
         </p>
       </div>
       <div className=" h-screen w-full">
-        <div className=" absolute flex text-center justify-center top-0 z-10 h-screen w-full bg-[#0c0c1a] overlay">
+        <div className=" absolute flex text-center justify-center top-0 z-5 h-screen w-full bg-[#0c0c1a] overlay">
           <h1 className=" absolute top-72 text-[#08D9D6] text-7xl ">
             <span className="textCustom">W</span>
             <span className="textCustom">e</span>
@@ -92,8 +93,9 @@ function App() {
           </h1>
         </div>
       </div>
+      
       <Hero />
-      <Footer />
+     
     </div>
   );
 }

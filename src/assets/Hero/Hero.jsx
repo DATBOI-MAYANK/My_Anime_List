@@ -7,6 +7,7 @@ import Hell from "../coverImage/Hell.png";
 import Bleach from "../coverImage/Bleach.jpg";
 import OnePiece from "../coverImage/OnePiece.jpg";
 import Naruto from "../coverImage/Naruto.jpg";
+import {Link} from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,11 +54,16 @@ function Hero() {
             Yamada Asaemon executioner, who they must return with in order to
             obtain the pardon.
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 ml-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
+              <Link
+                to='/Hell'
+                className="hover:cursor-pointer"
+              >
               More Info...
+              </Link>
             </button>
           </p>
         </div>
-        <div class="string Anime">
+        <div className="string Anime">
           <svg width="100%" height="100">
             <path
               d="M 10 100 Q 680 100 1340 100"
@@ -80,7 +86,11 @@ function Hero() {
             anime also features exclusive arcs with the Bounts, rogue Soul
             Reapers, and Zanpakutō spirits.
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
+            <Link
+                to={'/Bleach'}
+              >
               More Info...
+              </Link>
             </button>
           </p>
           <img
@@ -89,7 +99,7 @@ function Hero() {
             className="h-80 w-60 mr-7  p-1 rounded-[1.25rem]"
           />
         </div>
-        <div class="string Anime">
+        <div className="string Anime">
           <svg width="100%" height="100">
             <path
               d="M 10 100 Q 680 100 1340 100"
@@ -116,12 +126,16 @@ function Hero() {
             Devil Fruits, granting abilities at the cost of swimming, and Haki,
             enhancing willpower and combat skills, making it one of the few ways
             to counter Devil Fruit users.
-            <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 ml-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
+            <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
+            <Link
+                to={'/OnePiece'}
+              >
               More Info...
+              </Link>
             </button>
           </p>
         </div>
-        <div class="string Anime">
+        <div className="string Anime">
           <svg width="100%" height="100">
             <path
               d="M 10 100 Q 680 100 1340 100"
@@ -147,7 +161,11 @@ function Hero() {
             return. Naruto trains with Jiraiya, while Sakura becomes Tsunade’s
             apprentice, setting the stage for their next encounters.
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
+            <Link
+                to={'/Naruto'}
+              >
               More Info...
+              </Link>
             </button>
           </p>
           <img
