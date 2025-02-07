@@ -57,6 +57,7 @@ function Hero() {
               <Link
                 to='/Hell'
                 className="hover:cursor-pointer"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
               More Info...
               </Link>
@@ -88,6 +89,7 @@ function Hero() {
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
             <Link
                 to={'/Bleach'}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
               More Info...
               </Link>
@@ -129,6 +131,7 @@ function Hero() {
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
             <Link
                 to={'/OnePiece'}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
               More Info...
               </Link>
@@ -163,6 +166,7 @@ function Hero() {
             <button className="bg-[#fff] text-black rounded-md text-xl p-2 mt-3 mr-[86%] hover:bg-gradient-to-r from-[#FF2E63] via-purple-500 to-[#08D9D6] ">
             <Link
                 to={'/Naruto'}
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
               More Info...
               </Link>

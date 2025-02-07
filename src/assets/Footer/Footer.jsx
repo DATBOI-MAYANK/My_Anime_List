@@ -45,6 +45,7 @@ function Footer() {
             </a>
             <Link
               to='/'
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="font-bold text-lg hover:text-[#08D9D6]"
             >
                 Home

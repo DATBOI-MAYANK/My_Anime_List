@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Hell from './assets/HellParadise/Hell.jsx'
-import Bleach from './assets/Bleach/Bleach.jsx'
+import Hell from './assets/Anime/HellParadise/Hell.jsx'
+import Bleach from './assets/Anime/Bleach/Bleach.jsx'
+import OnePiece from './assets/Anime/OnePiece/OnePiece.jsx'
+import Naruto from './assets/Anime/Naruto/Naruto.jsx'
 import Layout from './Layout.jsx'
-import OnePiece from './assets/OnePiece/OnePiece.jsx'
-import Naruto from './assets/Naruto/Naruto.jsx'
 
 const router = createBrowserRouter([
   {

@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./style.css";
 import Hero from "./assets/Hero/Hero.jsx";
+import Marque from "./assets/Marquee/Marque.jsx";
 
 
 
@@ -93,7 +94,7 @@ function App() {
           </h1>
         </div>
       </div>
-      
+      <Marque />
       <Hero />
      
     </div>
