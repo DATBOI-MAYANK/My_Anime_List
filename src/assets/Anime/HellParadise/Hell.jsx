@@ -9,25 +9,26 @@ function Hell() {
             Hell's Paradise: Jigokuraku
           </h1>
         </div>
-        <div className=" grid grid-flow-row grid-cols-4  ">
-          <div className="image">
+        
+        <div className=" grid grid-flow-row grid-cols-4 mt-9  ">
+          <div className="image ">
             <img
               src={HellPara}
               alt=""
-              className="h-80 w-60 ml-7 p-1 rounded-[1.25rem]"
+              className="h-80 w-60 ml-7 p-1 rounded-xl"
             />
           </div>
-          <div className="info">
-            <h1 className=" text-[#FFFFFF]  p-8 text-4xl underline">Genre</h1>
-            <ul className="list-disc text-[#FFFF] text-2xl">
+          <div className="info  border-white border-2 ">
+            <h1 className=" text-[#FFFFFF]  p-8 pl-20 text-4xl underline">Genre</h1>
+            <ul className="list-disc text-[#FFFF] pl-8 text-2xl">
               <li>Action</li>
               <li>Dark Fantasy</li>
               <li>Psycological Thriller</li>
             </ul>
           </div>
-          <div className="info ">
-            <h1 className=" text-[#FFFFFF]  p-8 text-4xl underline">Manga</h1>
-            <div className="flex text-md">
+          <div className="info  border-white border-2 border-l-0 ">
+            <h1 className=" text-[#FFFFFF]  p-8 pl-20 text-4xl underline">Manga</h1>
+            <div className="flex text-md pl-2">
               <ul className=" text-[#FFFFFF] mx-1">
                 <li>Written by </li>
                 <li>Published by</li>
@@ -45,12 +46,12 @@ function Hell() {
                 <li>Jump Comics+</li>
                 <li> Shōnen Jump+</li>
                 <li>Shōnen</li>
-                <li>01/22/-01/25/2021</li>
+                <li>01/22/18-01/25/21</li>
                 <li> 13</li>
               </ul>
             </div>
           </div>
-          <div className="info">
+          <div className="info  border-white border-2 border-l-0  ">
             <h1 className=" text-[#FFFFFF] p-5 text-3xl underline">
               Anime television series
             </h1>
@@ -74,12 +75,23 @@ function Hell() {
                 <li> MAPPA</li>
                 <li>Crunchyroll Netflix</li>
                 <li>TXN (TV Tokyo)</li>
-                <li>	April 1, 2023 – present</li>
+                <li>	04/1/23–present</li>
                 <li> 13</li>
               </ul>
             </div>
           </div>
         </div>
+        <main  className="flex items-center justify-center">
+          <h1 className=" text-[#FFFFFF]  p-8 text-7xl underline">Characters</h1>
+          <div>
+            <div className="Charc">
+              
+            </div>
+            <div className="CharcInfo">
+
+            </div>
+          </div>
+        </main>
       </div>
     </div>
   );

@@ -41,7 +41,7 @@ function Hero() {
             alt="coverImage"
             className="h-80 w-60 ml-7 p-1 rounded-[1.25rem]"
           />
-          <p className=" text-[#FFFFFF] text-2xl m-1 p-5 w-7xl">
+          <p className=" text-[#FFFFFF] text-2xl m-1 p-5 w-7xl ">
             Captured during an assassination mission, Gabimaru the Hollow is
             sentenced to be executed, but nothing seems to kill him due to his
             superhuman body. Believing his love for his wife to be
